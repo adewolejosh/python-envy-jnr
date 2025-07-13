@@ -1,13 +1,9 @@
 {
-  "name": "python-envy",
-  "displayName": "Python Envy",
+  "name": "python-envy-jnr",
+  "displayName": "Python Envy Jnr",
   "description": "Automatically activate Python virtual environments as you navigate the source code",
-  "publisher": "teticio",
+  "publisher": "josh",
   "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/teticio/python-envy.git"
-  },
   "version": "0.1.9",
   "engines": {
     "vscode": "^1.85.0"
@@ -40,11 +36,11 @@
   "main": "./extension.js",
   "contributes": {
     "configuration": {
-      "title": "Python Envy",
+      "title": "Python Envy Jnr",
       "properties": {
-        "pythonEnvy.venvName": {
+        "pythonEnvyJnr.venvName": {
           "type": "string",
-          "default": ".venv",
+          "default": "",
           "description": "Name of the Python virtual environment directory."
         }
       }

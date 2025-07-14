@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "python-envy" extension will be documented in this file.
+All notable changes to the "python-envy-jnr" extension will be documented in this file.
 
 ## [0.1.10]
 

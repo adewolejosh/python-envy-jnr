@@ -50,11 +50,11 @@ async function setupPythonEnvironment(editor, pythonApi) {
                     try {
                         await pythonApi.environments.updateActiveEnvironmentPath(pythonPath);
                         vscode.window.showInformationMessage(
-                            `Python Envy: interpreter set to: ${pythonPath}`
+                            `Python Envy Jnr: interpreter set to: ${pythonPath}`
                         );
                     } catch (error) {
                         vscode.window.showErrorMessage(
-                            `Python Envy: error setting Python interpreter: ${error.message}`
+                            `Python Envy Jnr: error setting Python interpreter: ${error.message}`
                         );
                     }
                 }

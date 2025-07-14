@@ -1,5 +1,7 @@
 # Python Envy Jnr
 
+NOTE: Fork of Python Envy
+
 Automatically activate Python virtual environments as you navigate the source code.
 
 This is useful if you are working with a monorepo that contains sub-projects, modules, libraries or deployments with different Python dependencies. Or perhaps you want to automatically activate a development environment when you click on a test file.

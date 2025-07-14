@@ -41,7 +41,7 @@
         "pythonEnvyJnr.venvName": {
           "type": "string",
           "default": "",
-          "description": "Name of the Python virtual environment directory."
+          "description": "[Optional] Name of the Python virtual environment directory."
         }
       }
     }

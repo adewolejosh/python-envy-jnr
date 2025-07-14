@@ -1,18 +1,26 @@
 # Change Log
 
-All notable changes to the "python-envy" extension will be documented in this file.
+All notable changes to the "python-envy-jnr" extension will be documented in this file.
+
+## [0.1.10]
+
+- Feature: allowing users set virtual environment path per workspace or defaulting to empty.
+- Feature: some attempt to speed up.
 
 ## [0.1.9]
+
 - Fix issue #4.
 
-
 ## [0.1.8]
+
 - Activate on presence of Jupyter notebook (`*.ipynb`).
 
 ## [0.1.6]
+
 - Limit search for `.venv` directory to folder of workspace current file pertains to.
 
 ## [0.1.5]
+
 - Fixed infinite loop bug for files opened with relative path
 
 ## [0.1.4]

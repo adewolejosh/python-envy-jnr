@@ -74,13 +74,13 @@ async function setupPythonEnvironment(editor, pythonApi) {
 
         while (currentDir !== root) {
             const workspaceRoot = path.dirname(currentDir);
-            const venvPath = path.join(workspaceRoot, pythonFolder);  // default search curr dir -> my use-case
+            const venvPath = path.join(workspaceRoot);  
             
             if (fs.existsSync(venvPath) && fs.lstatSync(venvPath).isDirectory()) {
                 const currentPythonPath =
                 pythonApi.environments.getActiveEnvironmentPath();
                 
-                let pythonPath = path.join(workspaceRoot, pythonFolder, pythonName);  // still defaulting
+                let pythonPath = path.join(workspaceRoot, pythonFolder, pythonName); // default search curr dir -> my use-case
                 // cases
                 const vv = ".venv";
                 const ev = "env";

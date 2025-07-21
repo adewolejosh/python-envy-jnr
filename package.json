@@ -2,7 +2,7 @@
   "name": "python-envy-jnr",
   "displayName": "Python Envy Jnr",
   "description": "Automatically activate Python virtual environments as you navigate the source code",
-  "publisher": "josh",
+  "publisher": "adewolejosh",
   "license": "BSD-3-Clause",
   "version": "0.1.10",
   "engines": {
